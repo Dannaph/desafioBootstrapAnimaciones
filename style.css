@@ -1,0 +1,329 @@
+             /*DESKTOP*/                              
+
+@media only screen and (min-width: 961px) {
+    
+    /*RESETEO DE CSS*/
+*{
+    padding:0;
+    margin:0
+}
+
+
+
+
+
+/*ESTETICA DEL MENU NAVEGABLE DEL INICIO*/
+.navSuperiorInicio {
+    background-image: linear-gradient to top color #eccdcb, color #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 50px;
+    color: #e40421;
+    background-color: #eccdcb;
+    padding: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+.divNavSuperior{
+    text-decoration: none;
+}
+
+/*ESTETICA DEL MENU NAVEGABLE GENERAL*/
+.navGeneral {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 20px;
+    color: #e40421;
+    background-color: #eccdcb;
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}     
+
+
+/*PRODUCTOS*/
+.tituloProductos {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 40px;
+    text-decoration: solid;
+    color: #e40421;
+    background-color: #eccdcb;
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*SECCION DE PRODUCTOS - SW, BASIC, DENIM*/
+.sectionProductos {
+
+ font-family: Verdana, Geneva, Tahoma, sans-serif ;
+ font-size: 20px;
+ color: #e40421;
+ background-color: #eccdcb;
+ padding: 50px;
+ text-align: center;
+ text-decoration: none;
+ display: flex;
+ justify-content: center;
+}
+.swProductos{
+    padding-right: 50px;
+}
+.basicProductos{
+    padding-right: 50px;
+}
+.tituloSweater{
+    padding-bottom: 50px;
+} 
+.tituloBasic{
+    padding-bottom: 50px;
+}
+.tituloDenim{
+    padding-bottom: 50px;
+}
+
+/*BANNER INICIO - BLEND*/
+.bannerInicio {
+    background-color: #eccdcb;
+    text-align: center;
+    padding: 350px;
+}
+
+/*LOGOS FOOTER INICIO*/
+.logoWhatsappInicio{
+padding-right: 50px;
+}
+.logoFacebookInicio{
+padding-right: 50px ;
+}
+
+
+/*iMAGEN FORMULARIO CONTACTO*/
+.imagenFormulario{
+    background-color: #eccdcb;
+    text-align: center;
+    padding-bottom: 40px;
+    }
+
+/*FOOTER INICIO*/
+.footerGeneralInicio {
+background-color: #eccdcb;
+text-align: center;
+padding: 100px;
+display: flex;
+justify-content: space-around;
+
+}
+
+/*FOOTER GENERAL*/
+.footerGeneral {
+    background-color: #eccdcb;
+    text-align: center;
+    padding: 80px;
+}
+.logoWhatsappGeneral{
+    padding-right: 30px;
+}
+.logoFacebookGeneral{
+    padding-right: 30px;
+}
+
+/*MAIN COMUNIDAD - TESTIMONIOS */
+.mainComunidad {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 20px;
+    color: #e40421;
+    background-color: #eccdcb;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 50px
+    ;
+}
+.testimonioUno{
+    padding-right: 30px;
+}
+.testimonioDos{
+    padding-right: 30px;
+}
+
+/*TITULO DE TESTIMONIO*/
+.tituloTestimonio {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 40px;
+    text-decoration: solid;
+    color: #e40421;
+    background-color: #eccdcb;
+    padding: 50px;
+    text-align: center;
+    }
+
+/*TITLO DEVOLUCION*/
+.tituloDevolucion{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 40px;
+    text-decoration: solid;
+    color: #e40421;
+    background-color: #eccdcb;
+    padding: 50px;
+    text-align: center;
+}
+
+/*TITULO CONTACTANOS*/
+.tituloContactanos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 40px;
+    text-decoration: solid;
+    color: #e40421;
+    background-color: #eccdcb;
+    padding: 40px;
+    text-align: center;
+}
+
+/*TITULO FORMULARIO CONTACTO*/
+.tituloFormularioContacto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 40px;
+    text-decoration: solid;
+    color: #e40421;
+    background-color: #eccdcb;
+    padding: 50px;
+    text-align: center;
+}
+
+/*PARRAFO DEVOLUCION*/
+.parrafoDevolucion{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 20px;
+    color: #e40421;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    background-color: #eccdcb;
+    }
+
+/*PARRAFO DEVOLUCION EN NEGRITA*/
+.parrafoDevolucionNegrita{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 20px;
+    color: #e40421;
+    background-color: #eccdcb;
+    padding: 50px;
+    text-align: center;
+    text-decoration: solid; /*por que no me toma la negrita?*/
+}
+
+/*SECTION CONTACTO CON DATOS*/
+.sectionContacto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 30px;
+    color: #e40421;
+    background-color: #eccdcb;
+    padding-bottom: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*SECCION DE LIMITED EDITION - GRIDS */
+
+.tituloLimitedEdition{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 40px;
+    text-decoration: solid;
+    color: #e40421;
+    background-color: #eccdcb;
+    padding: 50px;
+    text-align: center;
+}
+
+.galeriaImagenesLimitedEdition {
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+}
+
+.galeriaImagenUno{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    object-fit: cover;
+}   
+
+.galeriaImagenDos{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    object-fit: cover;
+
+}
+
+.galeriaImagenTres{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    object-fit: cover;
+}
+
+.galeriaImagenCuatro {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    object-fit: cover;
+}
+
+.galeriaImagenCinco{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    object-fit: cover;
+}
+/*ANIMACIONES*/
+.animacionTienda:hover {
+    animation-name: movimiento ;
+    animation-duration: 2s;
+    }
+
+ @keyframes movimiento {
+
+0% { background-color: hsl(4, 46%, 86%)
+
+}
+15% {
+    background-color: #e40421
+}
+25% {
+    background-color: #eccdcb
+}
+50% {
+    background-color: #e40421
+}
+}
+
+
+}
